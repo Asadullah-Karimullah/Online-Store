@@ -48,21 +48,19 @@
                 <hr id="Indicator" />
               </div>
               <form id="LoginForm" action="https://formspree.io/f/myybnkaj" method="POST">
-                <input
-                  type="text"
-                  placeholder="Username"
+                <input type="text" name="username" placeholder="Username"
                   required
                   autofocus
                   tabindex="1"
-                  autocomplete="username"
-                />
-                <input type="password" placeholder="Password" required tabindex="2" />
+                  autocomplete="username"/>
+                <input type="password" name="password" placeholder="Password" required tabindex="2" />
                 <button type="submit" class="btn">Login</button>
                 <a href="">Forgot Password</a>
               </form>
               <form id="RegForm" action="https://formspree.io/f/myybnkaj" method="POST">
                 <input
                   type="text"
+                  name="username"
                   placeholder="Username"
                   autofocus
                   required
@@ -71,12 +69,13 @@
                 />
                 <input
                   type="email"
+                  name="email"
                   placeholder="Email"
                   required
                   tabindex="2"
                   autocomplete="email"
                 />
-                <input type="password" placeholder="Password" required tabindex="3" />
+                <input type="password" name="password" placeholder="Password" required tabindex="3" />
                 <button type="submit" class="btn">Register</button>
               </form>
             </div>
