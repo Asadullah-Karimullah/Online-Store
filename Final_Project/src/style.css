@@ -615,6 +615,12 @@ ul {
 
 /* ---- Responsive for Ipad or medium size Screen Display ---- */
 @media only screen and (max-width: 800px) {
+
+  .contact-box {
+  
+  flex-direction: column;
+}
+
   nav ul {
     position: static;
     top: 70px;
@@ -657,6 +663,10 @@ ul {
 
 /* ---- Responsive for small Screen Display ---- */
 @media only screen and (max-width: 600px) {
+
+
+
+
   .row {
     text-align: center;
   }
@@ -665,6 +675,7 @@ ul {
   .col-4 {
     flex-basis: 100%;
   }
+  
 
   .single-product .row {
     text-align: left;
